@@ -1,0 +1,33 @@
+/*********客户机接受服务器数据线程*************/
+#include "Socket_recieve.h"
+
+extern int download_signal;
+extern unsigned char download_command[1024];
+
+void socket_recieve(int sockfd)
+{
+	unsigned char buffer[1024];
+	int nread = 0;
+	bzero(buffer,sizeof(buffer));
+	while(1)
+	{
+
+		nread=read(sockfd,buffer,sizeof(buffer));
+
+		if(nread > 0)
+		{
+			int cnt = 0;
+			for(cnt = 0; cnt != nread; ++cnt)
+				download_command[cnt] = buffer[cnt];
+			//download_signal = 1;
+			
+
+			buffer[nread]='\0';
+			printf("recieve command from server:\n");
+			printf("%s\n",buffer);
+			bzero(buffer,sizeof(buffer));
+			nread = 0;
+			download_signal = 1;
+		}
+	}
+}

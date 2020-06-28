@@ -1,0 +1,152 @@
+;语言文件格式为: 名称|中文|英文，竖线分割，逗号与分号为注释，///为换行，空行自动忽略
+;Language file format: Name|Chinese|English，vertical is delimiter， comma or semicolon is Comments，///is newline，Empty lines automatically ignored
+ 
+lang_Main_Title|WH-G405tf|WH-G405tf
+lang_Main_AppTitle|WH-G405tf|WH-G405tf
+lang_Menu_File|文件|File
+lang_Menu_Quit|退出|Quit
+lang_Menu_Lang|Language|Language
+lang_Menu_Cn|简体中文|简体中文
+lang_Menu_En|English|English
+lang_Menu_Diy|DiyLang|DiyLang
+lang_Menu_Help|帮助|Help
+lang_Menu_About|关于...|About...
+lang_Menu_Hint|实时帮助|Real-time Help
+lang_Menu_Version|检查更新|Latest version
+lang_Menu_DownUrl|http://www.usr.cn/Download/415.html|http://www.usriot.com/p/rs232-rs485-4g-modem/
+lang_Menu_WorkOrder|提交问题|Technical Support
+lang_Menu_WorkOrderUrl|http://h.usr.cn/index.php|http://h.usriot.com/index.php
+lang_lblOpenCom|[PC串口参数] : 串口号|[PC Serial Parameters] : ComName
+lang_lblOpenBaud|波特率|BaudRate
+lang_lblOpenPDS|检验/数据/停止|Parity/Data/Stop
+lang_lblOpenFlow|流控 |Flow Control
+lang_btnOpen|打开串口|Open PC Serial
+lang_btnClose|关闭串口|Close PC Serial
+lang_btnFwUp|固件升级|Fw Upgrade
+lang_rzgrpbxWkmod| 选择工作模式| Choose Work Mode
+lang_rbNetTran| 网络透传模式|Transparent Mode
+lang_rbHttpd| HTTPD模式|HTTPD Client Mode
+lang_rbSmsTran| 短信透传模式|SMS Mode
+lang_rbUdc| UDC模式|UDC Mode
+lang_rzgrpbxPara|相关参数| parameters
+lang_rzchckbxSkt|连接服务器|Enable Socket 
+lang_lblIpAndPort|地址和端口|IP&Port
+lang_lblLinkTpye|连接类型|Link Type
+lang_cbbASL0|短链接|Short Connection
+lang_cbbASL1|长连接|Long Connection
+lang_OverTimeS|超时时间(秒)|Over Time (s)
+lang_lbledtSockRsTim|超时重连次数|Overtime reconnection times
+lang_rzchckbxHeartEn|启用心跳包|Enable Heartbeat Package
+lang_lblHeartTm|心跳时间(秒)|Heartbeat Time(s)
+lang_lblHeartDt|心跳数据|Heartbeat Data
+lang_lblHeartSnd|心跳发送方式|Heartbeat Send Type
+lang_cbbHeartSnd0|向服务器发送心跳包|Send data to network
+lang_cbbHeartSnd1|向串口终端发送心跳包|Send data to serial port
+lang_rzchckbxRegEn|启用注册包|Enable Identity Package
+lang_lblRegSnd|注册包发送方式|Reg Package Send Type
+lang_cbbRegSnd0|与服务器建立连接时向服务器发送一次|Send register data when socket connects
+lang_cbbRegSnd1|向服务器发送的每个数据包前都加上|Send register data as the head of every TCP/UDP package
+lang_cbbRegSnd2|同时支持以上两种|Support both of above two ways
+lang_lblRegTp|注册数据类型|Reg Package Data Type
+lang_cbbRegTp0|ICCID码|ICCID Code
+lang_cbbRegTp1_MEID|MEID码|MEID Code
+lang_cbbRegTp1_IMEI|IMEI码|IMEI Code
+lang_cbbRegTp3|透传云|Cloud (for USR Cloud)
+lang_cbbRegTp4|自定义数据|User-defined data
+lang_cbbRegTp5|UDC|UDC
+lang_lblCloudId|设备编号:共20位|Device ID: Length is 20
+lang_lblCloudPa|通讯密码:共8位,不足8位在前面补'0'.|Communication Code:Length is 8,if less than 8,fill Char '0' in the front
+lang_CloudIdPw|设备编号和密码|Device id & code
+lang_rzchckbxSOCKIND|显示网络透传来源Socket|Show Source Socket
+lang_lblHTPTP|HTTP请求方式|HTTP request type
+lang_lblHTPURL|HTTP请求的URL|HTTP URL
+lang_lblHTPSVIP|服务器地址|HTTP server address
+lang_lblHTPSVPort|服务器端口|HTTP server port
+lang_lblHTPHD|HTTP请求头信息|HTTP request Header
+lang_rzchckbxHtpFlt|过滤HTTP头|Filter HTTP Header
+lang_lblDSTNUM|透传目标电话号码|Destination phone number 
+lang_rzchckbxSMSFLT|短信来源号码过滤|Only receive SMS from source number
+lang_rzchckbxSMSPH|显示短信透传来源号码|Show SMS source number
+lang_rzgrpbxBase| 全局参数| Modem Parameters
+lang_lblUart|串口参数|Serial
+lang_lblBaud|串口波特率|Serial BaudRate 
+lang_rzchckbxMore|高级|More Function
+lang_rzchckbxRFC|类RFC2217|Sync BaudRate
+lang_lblUARTFT|打包时间(ms)|Package Time Interval(ms)
+lang_lblUARTFL|打包长度(Bytes)|Package Length(Bytes)
+lang_rzchckbxE|指令回显|Enable Echo
+lang_lbledtCmdPw|命令密码|Command Password
+lang_lbledtStMsg|启动信息|Welcome Message
+lang_lbledtApn|APN|APN
+lang_lbledtRsTim|无数据自动重启时间(秒)|No data auto restart time(s)
+lang_rzgrpbxDo| 执行命令及提示| Operation and Hints
+lang_btnAskAll|获取当前参数|Query all parameters
+lang_btnSetAll|设置所有参数|Set current parameters
+lang_btnPPPA|进入配置状态|Enter Serial AT command mode
+lang_btnENTM|进入通讯状态|Exit Serial AT command mode
+lang_btnH|帮助信息|Help message
+lang_btnZ|设备重启|Restart
+lang_btnVER|查询版本|Query version
+lang_btnCNUM|查询本机号码|Query phone number
+lang_btnSysRestart|系统重启|SystemRestart
+lang_btnCFGTF|存为用户默认|Save as default
+lang_btnRELD|恢复用户默认|Restore default
+lang_btnCLEAR|恢复出厂设置|Reset to factory settings
+lang_btnCSQ|查信号强度|Query RSSI
+lang_lblTxHex|发送:|TX:
+lang_lblRxHex|接收:|RX:
+lang_btnResetCount|复位计数|ResetCount
+lang_chbTime|时间戳|Time
+lang_lblReTelNum|目标电话号码|Destination phone number
+lang_pmSendType0|通过串口发送|Send via Serial Port
+lang_pmSendType1|发送手机短信|Send SMS message
+lang_btnSend|发送|Send
+lang_pmSend0|按Enter键发送|Enter key to send
+lang_pmSend1|按Ctrl+Enter键发送|Ctrl+Enter to send
+lang_pmSend3|AT指令自动加回车|Auto attach CR
+lang_pmCls0|复制|Copy
+lang_pmCls1|粘贴|Paste
+lang_pmCls2|全选|Select All
+lang_pmCls4|清屏|Clear
+lang_pmFwUpOpt0|升级后重启|Restar after upgrade
+lang_pmFwUpOpt1|显示数据流|Show Streaming
+lang_About_Title|关于|About
+lang_About_Version|版本：|Version:
+lang_About_OK|确 认|OK
+lang_About_SoftName|名称：WH-G405tf|Name: WH-G405tf
+lang_About_Description|说明：本程序由济南有人物联网技术有限公司设计提供，本软件使用免费。|Instruction:  This software is design by Jinan usr IOT Technology Co., Ltd.
+lang_About_Contact|联系我们：|Contact Us:
+lang_About_Website|http://www.usr.cn|http://www.usriot.com
+lang_About_Tel|0531-88822739|0531-88822739
+lang_About_Email|tec@usr.cn|tec@usr.cn
+hint_cbbOpenUart|PC串口和DTU应采用相同的串口参数|PC Serial should work in the same serial port parameters with M2M device
+hint_cbbUart|DTU和串口终端应采用相同的串口参数|M2M device should work in the same serial port parameters with Serial device 
+hint_chkEn|勾选表示启用|Click the block to enable function
+hint_chkHex|勾选以输入16进制数据|Checcked to input hexadecimal number
+hint_edtCloudId|20位|length is 20
+hint_edtCloudPa|8位|length is 8
+hint_rzchckbxCloudEn|启用透传云时，注册包功能失效！|When enable USR Cloud, register package function voidance!
+hint_cbbRegDt_Udc|UDC ID默认长度为11位，不足11位请补0|Length must be 11
+hint_imgGif|藏这么严，还是被发现了 ^_^ |Hide so strict,also be discovered ^_^ 
+info_ComOpenYes|串口已打开|Serial Open Success
+info_ComCloseYes|串口已关闭|Serial Close Success
+info_ComOpenNo|串口打开失败，请检查该串口是否被其他软件占用！|Failure , please close other software which use this Com Port.
+info_ComNoOpen|串口未打开|Serial port is not open
+info_DoOver|执行完毕|Operation complete
+info_Start0|一般操作流程：|General operation process:
+info_Start1|1. 模块连PC串口,上电;|1. Connect the module to PC serial port, power the module
+info_Start2|2. 打开串口;|2. Click "Open PC serial"
+info_Start3|3. 获取当前参数;|3. Click "Query all parameters"
+info_Start4|4. 选择工作模式,配置相关参数;|4. Choose work mode and configure related parameters
+info_Start5|5. 设置所有参数;|5. Click "Set current parameters"
+info_Restarting|正在重启...|Restarting...
+info_FwUpOver|固件升级完成|Firmware upgrade success
+info_FwUpTime|耗时(秒): |Used time (s): 
+info_SlctFwFile|请选择固件|Please select firmware file
+info_FwFile|固件文件|Firmware File
+info_AllFile|所有文件|All File
+info_AbsentFwFlie|请先选择固件|Please select firmware file First
+info_ModuleRTS|模块请求发送|Module request to send
+info_Sending|发送中...|Sending...
+info_ReloadRepower|如果升级未开始,请按住Reload键,同时给模块重新上电|If upgrade does not start,Please hold down the Reload button and Re power-on
+info_PlsUpFw|请升级固件！|Please upgrade the firmware!

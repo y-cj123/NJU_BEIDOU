@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d281d383-63b0-4bd3-9488-c3525a4e9db0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Listings/startup_stm32f10x_hd.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Listings/startup_stm32f10x_hd.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Listings/uip5.map" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Listings/uip5.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/bd_1.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/bd_1.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/bd_1.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/bd_1.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/client.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/client.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/client.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/client.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/clock-arch.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/clock-arch.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/delay.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/delay.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/enc28j60.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/enc28j60.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/gdw.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/gdw.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/led.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/led.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/main.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/main.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/misc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/misc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/packet.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/packet.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/psock.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/psock.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/server.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/server.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/server.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/server.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/spi.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/spi.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/startup_stm32f10x_hd.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/startup_stm32f10x_hd.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_exti.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_exti.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_gpio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_it.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_rcc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_rcc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_spi.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_spi.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_tim.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/stm32f10x_usart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/sys.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/sys.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/system_stm32f10x.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/system_stm32f10x.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/tapdev.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/tapdev.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/timer.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/timer.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uart.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uart5.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uart5.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip-fw.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip-fw.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip-neighbor.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip-neighbor.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip-split.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip-split.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip5.axf" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip5.axf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip5.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip5.build_log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip5.hex" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip5.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip5.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip5.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip5_Server.dep" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip5_Server.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip_arp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uip_arp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uiplib.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/uiplib.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/Objects/usart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/apps/ES/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/apps/ES/client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/apps/ES/server.c" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/apps/ES/server.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/uip5.uvguix.19758" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/uip5.uvguix.19758" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/unix/BD_1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/unix/BD_1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32-UIP（终端）/unix/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32-UIP（终端）/unix/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppMainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppMainWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/host_python$main.coverage" NAME="main Coverage Results" MODIFIED="1588745454348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WpfApp$main.coverage" NAME="main Coverage Results" MODIFIED="1569246218695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="362239515">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1308597260">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="111" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="111" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1129992812">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="780" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="780" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1108404420">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.28" value="3" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1064" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1064" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1964">
+              <caret line="595" column="65" selection-start-line="595" selection-start-column="65" selection-end-line="595" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+                <marker date="1578208038749" expanded="true" signature="3757:3762" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppMainWindow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15504">
+              <caret line="816" column="45" selection-start-line="816" selection-start-column="45" selection-end-line="816" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>my_address</find>
+      <find>pack</find>
+      <find>textBro</find>
+      <find>str</find>
+      <find>signal_write_msg</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/venv/struct_pack.py" />
+        <option value="$PROJECT_DIR$/venv/type_conversion.py" />
+        <option value="$PROJECT_DIR$/app.qrc" />
+        <option value="E:/JN/匹配.py" />
+        <option value="$PROJECT_DIR$/cp.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/AppMainWindow.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="385" />
+    <option name="y" value="170" />
+    <option name="width" value="975" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="host-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="host-python" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="匹配" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WpfApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/JN" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/JN/匹配.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cp" type="PythonConfigurationType" factoryName="Python">
+      <module name="WpfApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WpfApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WpfApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="type_conversion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WpfApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/type_conversion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.cp" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.type_conversion" />
+      <item itemvalue="Python.匹配" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.匹配" />
+        <item itemvalue="Python.type_conversion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d281d383-63b0-4bd3-9488-c3525a4e9db0" name="Default Changelist" comment="" />
+      <created>1546603266060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546603266060</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26340482" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.11048159" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.25354108" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.29461756" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../websocketCode/websocketCode/websocket.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cp.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cp.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cp.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cp.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>289</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>266</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../untitled/main.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-993854122/PyQt5/QtWidgets/QComboBox.py" />
+    <entry file="file://$PROJECT_DIR$/../websocketCode/websocketCode/websocket.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py" />
+    <entry file="file://$PROJECT_DIR$/MianWindow.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/type_conversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.qrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/encodings/__init__.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/encodings/idna.py" />
+    <entry file="file://E:/JN/匹配.py" />
+    <entry file="file://$PROJECT_DIR$/匹配.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1964">
+          <caret line="595" column="65" selection-start-line="595" selection-start-column="65" selection-end-line="595" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1578208038749" expanded="true" signature="3757:3762" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppMainWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15504">
+          <caret line="816" column="45" selection-start-line="816" selection-start-column="45" selection-end-line="816" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
